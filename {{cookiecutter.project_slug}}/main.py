@@ -1,7 +1,7 @@
 import flet as ft
 
 def main(page: ft.Page):
-    page.title = "{{cookiecutter.project_name}} / {{cookiecutter.author_name}"
+    page.title = "{{cookiecutter.project_name}} / {{cookiecutter.author_name}}"
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
 
